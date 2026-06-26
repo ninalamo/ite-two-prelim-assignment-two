@@ -21,7 +21,7 @@ public class CsvFileReader : BaseFileReader
     {
         Console.WriteLine(" -> Opening CSV file...");
 
-        // Read all lines from the CSV file
+        
         string[] lines = File.ReadAllLines(filePath);
 
         // Count the number of rows

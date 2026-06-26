@@ -13,6 +13,7 @@ public class XmlFileReader : BaseFileReader
     /// </summary>
     public override string SupportedFormat => "XML";
 
+
     /// <summary>
     /// Reads the entire text file, counts the lines, and displays the first 100 characters.
     /// </summary>

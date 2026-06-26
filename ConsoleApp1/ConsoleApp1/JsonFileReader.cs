@@ -24,7 +24,7 @@ public class JsonFileReader : BaseFileReader
     {
         Console.WriteLine(" -> Opening JSON document...");
 
-        // 1. Read the JSON file
+      
         string jsonText = File.ReadAllText(filePath);
 
         // 2. Parse the JSON
